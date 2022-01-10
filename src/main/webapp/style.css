@@ -1,0 +1,232 @@
+@charset "ISO-8859-1";
+
+body {
+	font-family: Calibri;
+	/*
+	background: #EDE574;
+	background: -webkit-linear-gradient(to right, #E1F5C4, #EDE574);
+	background: linear-gradient(to right, #E1F5C4, #EDE574); 
+	*/
+	background: #d9a7c7;  /* fallback for old browsers */
+	background: -webkit-linear-gradient(to left, #fffcdc, #d9a7c7);  /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to left, #fffcdc, #d9a7c7); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+	
+}
+
+.title {
+	text-align : center;
+	font-size : 25px;
+	font-weight: bold;
+}
+
+.responsesent {
+	text-align : center;
+	font-weight: bold;
+}
+
+.container {
+	position : absolute;
+	top : 50%;
+	left : 50%;
+	transform : translate(-50%,-50%);
+	display : flex;
+	flex-direction : column;
+}
+
+.login-container {
+	display : flex;
+	flex-direction : column;
+	border : 1px solid black;
+	text-align : center;
+	padding : 5px 5px;
+}
+
+.login {
+	display: flex;
+	flex-direction : row;
+}
+
+.buyer,.seller {
+	display : flex;
+	flex-direction : column;
+}
+
+.buyer {
+	padding-right : 10px;
+	border-right : 1px solid black;
+	margin-right : 5px;
+}
+
+.seller {
+	padding-left : 10px;
+}
+
+.entities {
+	text-align : left;
+}
+
+#new-here {
+	text-align : center;
+}
+
+#register-form {
+	display : flex;
+	flex-direction : column;
+	margin-top : 20px;
+	margin-left : 400px;
+	margin-right : 300px;
+	border : 1px solid black;
+}
+
+#choice {
+	display : flex;
+	flex-direction : row;
+	margin : 0 5px;
+}
+
+#reg {
+	width : 100px;
+	margin-left : 150px;
+}
+
+.user-info { 
+	position : absolute;
+	top : 30px;
+	left : 80%;
+}
+
+.navigation-bar {
+  display: flex;
+  flex-wrap: nowrap;
+  position : absolute;
+  top : 100px;
+  left : 30%;
+}
+
+.navigation-bar > a {
+  background-color: #f1f1f1;
+  width: 150px;
+  margin : 5px;
+  text-align: center;
+  line-height: 30px;
+  justify-content : space-between;
+  text-decoration : none;
+}
+
+.navigation-bar > a:hover {
+  background-color: #000;
+  color : #fff;
+  width: 150px;
+  margin : 5px;
+  text-align: center;
+  line-height: 30px;
+  justify-content : space-between;
+  text-decoration : none;
+}
+
+.home {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content : space-around;
+}
+
+.home > div {
+  width : 200px;
+  
+  background-color: #f1f1f1;
+  text-align: center;
+  padding : 15px;
+}
+
+#big {
+	font-weight : bold;
+}
+
+#small {
+	font-size : 12px;
+}
+
+.main {
+	position : absolute;
+	top : 55%;
+	left : 50%;
+	transform : translate(-50%,-50%);
+	display : flex;
+	flex-direction : column;
+	align-items : center;
+}
+
+#one {
+  position : absolute;
+  top : 44%;
+  width: 100%;
+  border-collapse: collapse;
+}
+
+#two {
+  position : absolute;
+  top : 60%;
+  width: 100%;
+  border-collapse: collapse;
+}
+
+td, th {
+  border: 1px solid #2F4F4F;
+  text-align: center;
+  padding: 8px;
+}
+
+.main-1 {
+	display : flex;
+	flex-direction : column;
+	border : 1px solid black;
+	text-align : center;
+	padding : 10px 15px;
+}
+
+.buyer-auction,.seller-auction {
+	position : absolute;
+	top : 33%;
+	width : 100%;
+	display : flex;
+	flex-direction : row;
+	justify-content : space-around;
+}
+
+.left-buyer,.right-buyer,.left-seller,.right-seller{
+	display : flex;
+	flex-direction : column;
+}
+
+.bottom-buyer {
+	position : absolute;
+	top : 36%;
+	left : 47%;
+}
+
+.bottom-seller {
+	position : absolute;
+	top : 52%;
+	left : 32%;
+}
+
+#sold{
+	position : absolute;
+	top : 52%;
+	left : 46%;
+	font-weight : bold;
+}
+#ordersold {
+	font-weight : bold;
+}
+
+input[type=submit],button {
+     border : none;
+     border-radius : 2px;
+     padding : 5px;
+}
+
+input[type=submit]:hover,button:hover{
+     background-color: #000;
+     color: white
+}
